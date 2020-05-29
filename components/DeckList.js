@@ -82,7 +82,7 @@ class DeckList extends Component {
     }
 }
 function mapStateToProps(decks) {
-    console.log('store', decks)
+    // console.log('store', decks)
     return {
         decks
     }

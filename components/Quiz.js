@@ -34,7 +34,7 @@ class Quiz extends Component {
     }
 
     if (questions.length - 1 === index) {
-      console.log('clear  notification')
+      // console.log('clear  notification')
       clearLocalNotification()
         .then(setLocalNotification)
     }

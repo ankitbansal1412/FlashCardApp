@@ -34,7 +34,7 @@ export function getInitialDeckInfo(deckName) {
             ]
         }
     }
-    console.log('insidehelper :', JSON.stringify(info))
+    // console.log('insidehelper :', JSON.stringify(info))
 
     AsyncStorage.setItem(DECKS_STORAGE_KEY, JSON.stringify(info))
 
@@ -81,7 +81,7 @@ export function setLocalNotification() {
                                     repeat: 'day'
                                 }
                             )
-                            console.warn(tommorow)
+                            // console.warn(tommorow)
                             AsyncStorage.setItem(NOTIFICATION_KEY, JSON.stringify(true))
                         }
                     })

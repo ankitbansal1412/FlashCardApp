@@ -14,7 +14,7 @@ export const getDeckData = async (deckName) => {
     }
     if (value !== null) {
 
-      console.log('deckName in api: ', deckName)
+      // console.log('deckName in api: ', deckName)
       const returningValue = JSON.parse(value)
 
       return deckName === undefined ? returningValue : returningValue[deckName]
